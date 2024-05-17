@@ -1,0 +1,47 @@
+/* src/components/NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff0000;
+  padding: 1rem;
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-logo h1 {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart-widget {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-widget .item-count {
+  margin-left: 0.5rem;
+}
