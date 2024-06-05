@@ -10,7 +10,7 @@ function App() {
     return (
         <Router>
             <div className="App">
-                <CartProvider> {}
+                <CartProvider>
                     <NavBar />
                     <Routes>
                         <Route path="/" element={<ItemListContainer />} />
