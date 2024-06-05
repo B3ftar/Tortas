@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import './ItemListContainer.css';
 import { useCart } from './CartContext'; 
+import { toast } from 'react-toastify';
 
 function ItemListContainer() {
     const { id } = useParams();
-    const { addItemToCart } = useCart(); // Obtener la función addItemToCart del contexto del carrito
+    const { addItemToCart } = useCart();
     const [items, setItems] = useState([]);
     const [filteredItems, setFilteredItems] = useState([]);
 
@@ -35,15 +36,18 @@ function ItemListContainer() {
         setFilteredItems(filtered);
     };
 
+    const handleAddToCart = (item) => {
+        addItemToCart(item);
+        toast.success(`${item.name} agregado al carrito!`);
+    };
+
     return (
         <div className="item-list-container">
             <h2>Lista de Productos</h2>
-            {}
             <div className="filter-buttons">
                 <button onClick={() => handleFilterByType('todas')}>Todas</button>
                 <button onClick={() => handleFilterByType('simple')}>Categoría Simple</button>
                 <button onClick={() => handleFilterByType('compleja')}>Categoría Compleja</button>
-                {}
             </div>
             <div className="item-list">
                 {filteredItems.map(item => (
@@ -55,7 +59,7 @@ function ItemListContainer() {
                                 <p>Precio: {item.price}</p>
                             </div>
                         </Link>
-                        <button onClick={() => addItemToCart(item)}>Comprar</button> {/* Usar addItemToCart del contexto del carrito */}
+                        <button onClick={() => handleAddToCart(item)}>Comprar</button>
                     </div>
                 ))}
             </div>

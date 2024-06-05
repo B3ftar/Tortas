@@ -1,4 +1,3 @@
-// NavBar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
@@ -6,7 +5,7 @@ import './NavBar.css';
 import { useCart } from './CartContext'; 
 
 function NavBar() {
-    const { cartItems } = useCart(); // Obtener el contexto del carrito
+    const { cartItems } = useCart();
 
     // Calcular el número total de elementos en el carrito
     const cartItemCount = cartItems.reduce((total, item) => total + item.quantity, 0);

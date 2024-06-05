@@ -5,6 +5,8 @@ import ItemListContainer from './ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer';
 import Footer from './Footer';
 import { CartProvider } from './CartContext';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
     return (
@@ -19,6 +21,7 @@ function App() {
                     </Routes>
                     <Footer />
                 </CartProvider>
+                <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
             </div>
         </Router>
     );
