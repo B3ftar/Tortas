@@ -1,13 +1,12 @@
-
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FaShoppingCart } from 'react-icons/fa';
 import './CartWidget.css';
 
-const CartWidget = () => {
+function CartWidget({ itemCount }) {
     return (
         <div className="cart-widget">
-            <FontAwesomeIcon icon={faShoppingCart} />
+            <FaShoppingCart />
+            {itemCount > 0 && <span className="item-count">{itemCount}</span>}
         </div>
     );
 }

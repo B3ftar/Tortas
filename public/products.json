@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Torta Chocolate",
+        "price": 10.99,
+        "description": "Deliciosa torta de chocolate",
+        "image": "/images/torta-chocolate.jpg",
+        "type": "simple"
+    },
+    {
+        "id": 2,
+        "name": "Torta Vainilla",
+        "price": 10.99,
+        "description": "Exquisita torta de vainilla",
+        "image": "/images/torta-vainilla.jpg",
+        "type": "simple"
+    },
+    {
+        "id": 3,
+        "name": "Torta Fresa",
+        "price": 10.99,
+        "description": "Sabrosa torta de fresa",
+        "image": "/images/torta-frutilla.jpg",
+        "type": "simple"
+    },
+    {
+        "id": 4,
+        "name": "Chocotorta",
+        "price": 15.99,
+        "description": "Torta de chocolate con galletas y dulce de leche.",
+        "image": "/images/chocotorta.jpg",
+        "type": "compleja"
+    },
+    {
+        "id": 5,
+        "name": "Torta de Frutas",
+        "description": "Torta de crema con frutas frescas.",
+        "price": 18.99,
+        "image": "/images/tarta-de-frutas.jpg",
+        "type": "compleja"
+    },
+    {
+        "id": 6,
+        "name": "Torta de Manzana",
+        "description": "Torta de masa quebrada con relleno de manzanas caramelizadas.",
+        "price": 20.99,
+        "image": "/images/tarta-de-manzana.jpg",
+        "type": "compleja"
+    }
+]

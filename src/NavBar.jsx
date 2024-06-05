@@ -1,19 +1,26 @@
-// src/NavBar.js
+// NavBar.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 import './NavBar.css';
+import { useCart } from './CartContext'; 
 
-const NavBar = () => {
+function NavBar() {
+    const { cartItems } = useCart(); // Obtener el contexto del carrito
+
+    // Calcular el número total de elementos en el carrito
+    const cartItemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+
     return (
         <nav className="navbar">
             <h1 className="navbar-logo">Tortas</h1>
             <ul className="navbar-links">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Acerca de</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><Link to="/">Inicio</Link></li>
+                <li><Link to="/about">Acerca de</Link></li>
+                <li><Link to="/services">Servicios</Link></li>
+                <li><Link to="/contact">Contacto</Link></li>
             </ul>
-            <CartWidget />
+            <CartWidget itemCount={cartItemCount} />
         </nav>
     );
 }
