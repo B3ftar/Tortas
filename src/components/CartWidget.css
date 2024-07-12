@@ -1,0 +1,98 @@
+/* Estilos para el contenedor del carrito */
+.cart-widget {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Tamaño del icono */
+    cursor: pointer; /* Cambia el cursor a pointer cuando se pasa por encima */
+}
+
+.cart-widget .item-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.cart-widget i {
+    margin-right: 10px; /* Espacio entre el ícono y el contenido del carrito */
+}
+
+/* Estilos para el modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto; /* Agregar scroll si el contenido es demasiado grande */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.modal h2 {
+    margin-bottom: 15px;
+    color: #00d5ff;
+}
+
+.modal p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.modal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.modal li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.modal img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.modal h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.modal button {
+    padding: 8px 16px;
+    background-color: #00b4f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.modal button:hover {
+    background-color: #005f73;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}

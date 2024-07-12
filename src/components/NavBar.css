@@ -1,10 +1,22 @@
 /* src/NavBar.css */
+
+
+body {
+    font-family: Arial, sans-serif; /* Establecer una fuente por defecto */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo opcional para todo el cuerpo */
+}
+
+
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #004447;
+    background-color: #000000;
     color: white;
 }
 
@@ -15,6 +27,8 @@
 .navbar-links {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0; /* Resetear el padding para asegurarte de que no haya espacio adicional */
 }
 
 .navbar-links li {
