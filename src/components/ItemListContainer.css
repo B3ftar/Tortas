@@ -125,21 +125,21 @@
 }
 
 .item-list-container h2 {
-    color: #ffffff; /* Color del texto */
-    font-size: 2.5rem; /* Tamaño de la fuente */
+    color: #ffffff;
+    font-size: 2.5rem; 
     margin-bottom: 20px;
     font-family: 'Arial', sans-serif;
-    text-transform: uppercase; /* Convertir el texto a mayúsculas */
-    letter-spacing: 1px; /* Espaciado entre letras */
-    font-weight: bold; /* Grosor del texto */
-    background-color: #6b6b6b; /* Color de fondo */
-    padding: 10px; /* Espaciado interno */
-    border-radius: 8px; /* Borde redondeado */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-weight: bold; 
+    background-color: #6b6b6b; 
+    padding: 10px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Transiciones suaves */
 }
 
-/* Estilos para el formulario de pago */
+
 
 .payment-form {
     max-width: 400px;

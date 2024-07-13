@@ -2,10 +2,10 @@
 
 
 body {
-    font-family: Arial, sans-serif; /* Establecer una fuente por defecto */
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Color de fondo opcional para todo el cuerpo */
+    background-color: #f0f0f0; 
 }
 
 
@@ -28,7 +28,7 @@ body {
     list-style: none;
     display: flex;
     margin: 0;
-    padding: 0; /* Resetear el padding para asegurarte de que no haya espacio adicional */
+    padding: 0;
 }
 
 .navbar-links li {

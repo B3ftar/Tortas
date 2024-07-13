@@ -1,7 +1,7 @@
 // AboutPage.js
 
 import React from 'react';
-import './AboutPage.css'; // Archivo CSS para estilos específicos de esta página
+import './AboutPage.css';
 
 const AboutPage = () => {
   return (

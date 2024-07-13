@@ -9,7 +9,6 @@ import { useCart } from './CartContext';
 function NavBar() {
     const { cartItems } = useCart();
 
-    // Calcular el número total de elementos en el carrito
     const cartItemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
 
     return (

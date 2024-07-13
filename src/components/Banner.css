@@ -4,7 +4,7 @@
     background-image: url('https://cdn.laanonima.com/content/recetas_banner_postre_torta_zanahoria_1565x405.jpg'); /* Reemplaza 'path_to_your_image.jpg' con la ruta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
-    height: 400px; /* Ajusta la altura según tus necesidades */
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
 .banner-content {
     max-width: 600px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad del texto */
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .banner-content h1 {

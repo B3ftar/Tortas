@@ -40,7 +40,7 @@
     color: #333333;
     font-weight: bold;
     text-transform: capitalize;
-    color: #4CAF50; /* Color verde para los títulos */
+    color: #4CAF50;
 }
 
 .item-detail-container .section p {
@@ -48,7 +48,7 @@
     line-height: 1.6;
     margin-bottom: 10px;
     color: #666666;
-    color: #555; /* Color gris oscuro para el texto */
+    color: #555;
 }
 
 .item-detail-container .item-quantity-selector {
@@ -90,7 +90,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Aumentar tamaño de fuente para todo el contenedor */
+
 .item-detail-container * {
     font-size: 18px;
 }

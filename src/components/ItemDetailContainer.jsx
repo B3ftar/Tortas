@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import './ItemDetailContainer.css'; // Archivo CSS para estilos
 import ItemQuantitySelector from './ItemQuantitySelector';
 import { useCart } from './CartContext';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; // Estilos CSS para react-toastify
 
 function ItemDetailContainer() {
     const { id } = useParams();
@@ -43,7 +45,7 @@ function ItemDetailContainer() {
                 ...item,
                 quantity: quantityInt
             });
-            console.log(`${quantityInt} ${item.name} agregado al carrito`);
+            toast.success(`${quantityInt} ${item.name} agregado al carrito!`); // Mostrar la alerta usando react-toastify
             // Lógica adicional después de agregar al carrito
         } else {
             console.error('Cantidad no válida');

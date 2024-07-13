@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import './ItemListContainer.css';
 import { useCart } from './CartContext';
 import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; // Estilos CSS para react-toastify
 import ItemQuantitySelector from './ItemQuantitySelector';
 import { FaSearch } from 'react-icons/fa';
 
@@ -41,7 +42,7 @@ function ItemListContainer() {
 
     const handleAddToCart = (item, quantity) => {
         addItemToCart({ ...item, quantity });
-        toast.success(`${quantity} ${item.name} agregado al carrito!`);
+        toast.success(`${quantity} ${item.name} agregado al carrito!`); // Mostrar la alerta usando react-toastify
     };
 
     const handleSearch = (event) => {

@@ -7,7 +7,7 @@ import Banner from './components/Banner';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import Footer from './components/Footer';
-import AboutPage from './components/AboutPage'; // Importa el componente de Acerca de
+import AboutPage from './components/AboutPage'; 
 import { CartProvider } from './components/CartContext';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
