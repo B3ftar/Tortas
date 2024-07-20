@@ -1,0 +1,209 @@
+[
+    {
+        "id": 1,
+        "name": "Torta Chocolate",
+        "price": 10.99,
+        "description": "Deliciosa torta de chocolate elaborada con una mezcla exquisita de cacao puro y chocolate de alta calidad. Perfecta para los amantes del chocolate.",
+        "image": "/images/torta-chocolate.jpg",
+        "type": "simple",
+        "ingredients": "Chocolate, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 2,
+        "name": "Torta Vainilla",
+        "price": 10.99,
+        "description": "Exquisita torta de vainilla con un aroma delicado y un sabor suave que se funde en la boca. Ideal para cualquier ocasión especial.",
+        "image": "/images/torta-vainilla.jpg",
+        "type": "simple",
+        "ingredients": "Vainilla, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 3,
+        "name": "Torta Fresa",
+        "price": 10.99,
+        "description": "Sabrosa torta de fresa hecha con jugosas fresas frescas y una combinación perfecta de ingredientes que realzan su sabor frutal.",
+        "image": "/images/torta-frutilla.jpg",
+        "type": "simple",
+        "ingredients": "Fresas, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 4,
+        "name": "Chocotorta",
+        "price": 15.99,
+        "description": "Torta de chocolate con galletas y dulce de leche, una combinación irresistible para los amantes del chocolate y los postres dulces.",
+        "image": "/images/chocotorta.jpg",
+        "type": "compleja",
+        "ingredients": "Chocolate, galletas, dulce de leche, crema"
+    },
+    {
+        "id": 5,
+        "name": "Torta de Frutas",
+        "price": 18.99,
+        "description": "Torta de crema con frutas frescas seleccionadas a mano, incluyendo fresas, kiwis y uvas. Una explosión de sabor en cada bocado.",
+        "image": "/images/tarta-de-frutas.jpg",
+        "type": "compleja",
+        "ingredients": "Fresas, kiwis, uvas, crema, harina, azúcar, huevos"
+    },
+    {
+        "id": 6,
+        "name": "Torta de Manzana",
+        "price": 20.99,
+        "description": "Torta de masa quebrada rellena con manzanas caramelizadas y una mezcla especial de especias que resalta su sabor único y delicioso.",
+        "image": "/images/tarta-de-manzana.jpg",
+        "type": "compleja",
+        "ingredients": "Manzanas, masa quebrada, azúcar, canela, harina, mantequilla"
+    },
+    {
+        "id": 7,
+        "name": "Torta de Limón",
+        "price": 12.99,
+        "description": "Refrescante torta de limón con un toque cítrico y una textura suave y esponjosa que deleita los sentidos.",
+        "image": "https://www.pequerecetas.com/wp-content/uploads/2012/09/tarta-de-limon-sin-horno.jpg",
+        "type": "simple",
+        "ingredients": "Limón, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 8,
+        "name": "Torta Red Velvet",
+        "price": 14.99,
+        "description": "Elegante torta red velvet con un color rojo intenso y un sabor aterciopelado que la convierte en un clásico irresistible.",
+        "image": "https://assets.elgourmet.com/wp-content/uploads/2023/03/red-v_TdjgZYvL1S9D3Rt6w7XhHVx8O2JNno.png",
+        "type": "compleja",
+        "ingredients": "Chocolate, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 9,
+        "name": "Torta de Naranja",
+        "price": 13.99,
+        "description": "Sabrosa torta de naranja con un aroma cítrico y un sabor fresco que combina perfectamente con una capa de glaseado de naranja.",
+        "image": "https://resizer.glanacion.com/resizer/v2/torta-humeda-de-UY6GEU4HCVD57PMOWEOU5DVJHE.jpeg?auth=4dcb68bc28bc697ca30c577872c1cfda12d0e3f6657583c42a307874b73768f1&width=768&height=768&quality=70&smart=true",
+        "type": "simple",
+        "ingredients": "Naranja, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 10,
+        "name": "Torta de Zanahoria",
+        "price": 16.99,
+        "description": "Deliciosa torta de zanahoria con una mezcla de especias y un glaseado de queso crema que realza su sabor natural y dulce.",
+        "image": "https://www.elmueble.com/medio/2018/12/18/detalle-de-pastel-de-zanahoria_00000000_230201131818_600x600.jpg",
+        "type": "simple",
+        "ingredients": "Zanahoria, harina, azúcar, huevos, mantequilla, canela, nueces"
+    },
+    {
+        "id": 11,
+        "name": "Torta de Coco",
+        "price": 11.99,
+        "description": "Exótica torta de coco con una textura suave y un sabor tropical que transporta a un paraíso de sabores.",
+        "image": "https://d22fxaf9t8d39k.cloudfront.net/c93c535267de2a5f89840c6aa775d674c72718ffc71492a9e883459002d05ba420728.jpg",
+        "type": "simple",
+        "ingredients": "Coco, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 12,
+        "name": "Torta de Almendras",
+        "price": 19.99,
+        "description": "Elegante torta de almendras con una mezcla de almendras molidas y extracto de almendra, cubierta con almendras tostadas.",
+        "image": "https://es.cravingsjournal.com/wp-content/uploads/2018/03/torta-de-almendras-6-500x500.jpg",
+        "type": "compleja",
+        "ingredients": "Almendras, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 13,
+        "name": "Torta de Café",
+        "price": 17.99,
+        "description": "Torta con un sabor intenso a café, ideal para los amantes del café y los postres aromáticos.",
+        "image": "https://assets.elgourmet.com/wp-content/uploads/2023/03/torta_Wk8PuOpz1Jl6D3KARHjErity4YwfVm-1024x683.png",
+        "type": "simple",
+        "ingredients": "Café, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 14,
+        "name": "Torta Moka",
+        "price": 21.99,
+        "description": "Torta con crema moka y decoración elegante, perfecta para ocasiones especiales y amantes de los sabores intensos.",
+        "image": "https://recetatorta.com/wp-content/uploads/2022/09/Torta-moka-mocha.jpg",
+        "type": "compleja",
+        "ingredients": "Café, chocolate, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 15,
+        "name": "Torta de Durazno",
+        "price": 15.99,
+        "description": "Torta con duraznos frescos y crema, ideal para disfrutar en temporadas de duraznos.",
+        "image": "https://www.paulinacocina.net/wp-content/uploads/2022/05/receta-de-tarta-de-durazno.jpg",
+        "type": "simple",
+        "ingredients": "Duraznos, crema, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 16,
+        "name": "Torta de Cereza",
+        "price": 18.99,
+        "description": "Torta con cerezas frescas y crema, una combinación deliciosa y refrescante para los amantes de las frutas.",
+        "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/eccdfd11-358d-4754-a075-d78660cf0fe9/Derivates/a570535c-823c-4edd-ae40-6afdda08bed5.jpg",
+        "type": "simple",
+        "ingredients": "Cerezas, crema, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 17,
+        "name": "Torta de Pistacho",
+        "price": 22.99,
+        "description": "Torta con crema de pistacho y decoración crujiente, ideal para los que buscan un sabor sofisticado y texturas interesantes.",
+        "image": "https://chocolateaguila.com/archivos/recetas/receta-103_torta-de-pistachos.jpg",
+        "type": "compleja",
+        "ingredients": "Pistacho, crema, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 18,
+        "name": "Torta de Maracuyá",
+        "price": 16.99,
+        "description": "Torta de maracuyá con crema y frutas frescas, perfecta para quienes disfrutan de sabores tropicales y refrescantes.",
+        "image": "https://res.cloudinary.com/riqra/image/upload/v1660930895/sellers/tortas-gaby/products/nkuy2ippvoyyyphkvslx.png",
+        "type": "compleja",
+        "ingredients": "Maracuyá, crema, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 19,
+        "name": "Torta de Menta y Chocolate",
+        "price": 20.99,
+        "description": "Torta con capas de menta y chocolate, ideal para los amantes de la combinación refrescante y dulce.",
+        "image": "https://2trendies.com/hero/2023/08/tartamenta.jpg",
+        "type": "compleja",
+        "ingredients": "Chocolate, menta, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 20,
+        "name": "Torta de Tiramisú",
+        "price": 23.99,
+        "description": "Torta con crema de mascarpone y café, inspirada en el famoso postre italiano. Perfecta para los amantes del café y la textura cremosa.",
+        "image": "https://www.bettycrocker.lat/wp-content/uploads/2021/04/BCL-Tiramisu_Recipe_770x514.jpg",
+        "type": "compleja",
+        "ingredients": "Café, mascarpone, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 21,
+        "name": "Torta de Mango",
+        "price": 14.99,
+        "description": "Torta de mango con crema y frutas frescas, una combinación tropical que refresca y deleita el paladar.",
+        "image": "https://www.mango.org/wp-content/uploads/2022/11/Mango-Layer-Cake.jpg",
+        "type": "simple",
+        "ingredients": "Mango, crema, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 22,
+        "name": "Torta de Piña Colada",
+        "price": 17.99,
+        "description": "Torta con sabor a piña colada y coco, perfecta para quienes buscan un postre con notas tropicales y refrescantes.",
+        "image": "https://www.comedera.com/wp-content/uploads/2023/09/ThDKgLCg.jpeg",
+        "type": "simple",
+        "ingredients": "Piña, coco, harina, azúcar, huevos, mantequilla"
+    },
+    {
+        "id": 23,
+        "name": "Torta de Crema Catalana",
+        "price": 19.99,
+        "description": "Torta con crema catalana y caramelo, inspirada en el famoso postre español. Ideal para los amantes de las texturas cremosas y sabores intensos.",
+        "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/9432A0F8-B396-4285-991A-E1EABCE33F75/Derivates/3f7116b1-68ec-4c7d-8860-a1e0ee6ac4ed.jpg",
+        "type": "compleja",
+        "ingredients": "Crema catalana, caramelo, harina, azúcar, huevos, mantequilla"
+    }
+]
